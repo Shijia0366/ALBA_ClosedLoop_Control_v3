@@ -1,0 +1,2 @@
+SIMULINK RUN B_guard_localised case_300mL_mode3 | 20260902T195030
+boundary_triggered | torque 0.290697282 Nm (98.015%), Q RMSE 0.037054, close NaN, actual stop NaN, volume 297.90814957

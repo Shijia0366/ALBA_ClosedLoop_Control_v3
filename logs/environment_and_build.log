@@ -1,0 +1,59 @@
+                  version: '25.2.0.2998904 (R2025b)'
+                  release: '2025b'
+    simulink_license_test: 1
+                toolboxes: [1×6 struct]
+
+    passed: 9
+    failed: 0
+     scope: 'diagnostics, unilateral contact and frozen constraints'
+
+Built C:\Users\86155\Documents\毕设\ALBA_Step9_ClosedLoop\ALBA_Step9_ClosedLoop_v3\stage9b_port\alba9b_full_loop.slx
+                  version: '25.2.0.2998904 (R2025b)'
+                  release: '2025b'
+    simulink_license_test: 1
+                toolboxes: [1×6 struct]
+
+    passed: 9
+    failed: 0
+     scope: 'diagnostics, unilateral contact and frozen constraints'
+
+                  version: '25.2.0.2998904 (R2025b)'
+                  release: '2025b'
+    simulink_license_test: 1
+                toolboxes: [1×6 struct]
+
+    passed: 9
+    failed: 0
+     scope: 'diagnostics, unilateral contact and frozen constraints'
+
+Built C:\Users\86155\Documents\毕设\ALBA_Step9_ClosedLoop\ALBA_Step9_ClosedLoop_v3\stage9b_port\alba9b_full_loop.slx
+                  version: '25.2.0.2998904 (R2025b)'
+                  release: '2025b'
+    simulink_license_test: 1
+                toolboxes: [1×6 struct]
+
+    passed: 15
+    failed: 0
+     scope: 'diagnostics, completion classification, unilateral contact and frozen constraints'
+
+Built C:\Users\86155\Documents\毕设\ALBA_Step9_ClosedLoop\ALBA_Step9_ClosedLoop_v3\stage9b_port\alba9b_full_loop.slx
+                  version: '25.2.0.2998904 (R2025b)'
+                  release: '2025b'
+    simulink_license_test: 1
+                toolboxes: [1×6 struct]
+
+    passed: 15
+    failed: 0
+     scope: 'diagnostics, completion classification, unilateral contact and frozen constraints'
+
+Built C:\Users\86155\Documents\毕设\ALBA_Step9_ClosedLoop\ALBA_Step9_ClosedLoop_v3\stage9b_port\alba9b_full_loop.slx
+                  version: '25.2.0.2998904 (R2025b)'
+                  release: '2025b'
+    simulink_license_test: 1
+                toolboxes: [1×6 struct]
+
+    passed: 15
+    failed: 0
+     scope: 'diagnostics, completion classification, unilateral contact and frozen constraints'
+
+Built C:\Users\86155\Documents\毕设\ALBA_Step9_ClosedLoop\ALBA_Step9_ClosedLoop_v3\stage9b_port\alba9b_full_loop.slx

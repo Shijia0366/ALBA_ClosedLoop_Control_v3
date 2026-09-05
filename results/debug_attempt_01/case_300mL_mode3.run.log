@@ -1,0 +1,23 @@
+SIMULINK RUN D_diagnostic_baseline case_300mL_mode3 | 20260902T191335
+[警告: 模型 'alba9b_full_loop' 包含 1 个代数环。
+Suggested Actions:
+    • 使用 Simulink.BlockDiagram.getAlgebraicLoops 函数突出显示并查看模型中关于代数环的信息。 - Open
+    • 通过将 '代数环' 诊断参数设置为 '无' 来隐藏此诊断。 - Fix
+] 
+[> 位置：run_v3_case (第 24 行)] 
+找到包含 
+alba9b_full_loop/Completion
+alba9b_full_loop/Int_quiet (algebraic variable) (discontinuity)
+通过为代数环中的一个或多个原子子系统或使能子系统选择 "尽量减少出现人为代数环" 参数，可以解决此代数环。 的代数环
+[警告: 在一个或多个代数环中检测到不连续性，这可能会使代数环求解器无法求解代数环。] 
+[> 位置：run_v3_case (第 24 行)] 
+[警告: 仿真结果可能是意外结果或不直观，因为 Integrator 模块重置端口或初始条件端口是一个或多个代数环路径的一部分。为避免在使用 Integrator 模块时出现代数环，请使用状态端口。] 
+[> 位置：run_v3_case (第 24 行)] 
+位置 1 处的索引超出数组边界。索引不能超过 46。
+
+出错 alba9v3_diagnose (第 15 行)
+ [val,k]=min(y(idx,ix.guards(j)));
+             ^^^^^^^^^^^^^^^^^^^
+出错 run_v3_case (第 27 行)
+ rec.diag=alba9v3_diagnose(rec.t,rec.y,S,opt.stoptime);rec.simulation_output=out;
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

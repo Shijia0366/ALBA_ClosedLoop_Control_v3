@@ -1,0 +1,2 @@
+SIMULINK RUN D_convergence_tight case_300mL_mode2 | 20260902T192621
+normal_completion | torque 0.286897938 Nm (96.734%), Q RMSE 0.045001, close 23.370433, actual stop 23.489465, volume 300.00001498

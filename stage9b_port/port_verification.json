@@ -1,0 +1,15 @@
+{
+  "points": 4800,
+  "loss_points": 11,
+  "worst_relative_obs": 3.4078109585590129E-15,
+  "worst_obs_field": "pe",
+  "worst_relative_rhs": 4.3319959206369507E-19,
+  "worst_relative_jac": 3.300162305460316E-16,
+  "worst_relative_guard": 0,
+  "worst_relative_loss": 0,
+  "rom_vs_port_geometry": 0,
+  "rom_vs_port_loss": 0,
+  "tolerance_rhs": 1E-8,
+  "tolerance_jac": 1E-7,
+  "scope": "numerical port verification only; says nothing about hardware"
+}

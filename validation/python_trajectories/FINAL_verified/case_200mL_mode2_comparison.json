@@ -1,0 +1,174 @@
+{
+  "events": {
+    "status": "normal_completion",
+    "t_threshold": 17.20362479044808,
+    "t_close": 17.203629790448083,
+    "t_tail_end": 18.549829286131548,
+    "t_command_stop": 17.277390938576897,
+    "t_mechanical_stop": 17.2498609405526,
+    "t_done": 18.549829286131548
+  },
+  "simulink_close_s": 17.203630178024557,
+  "closure_time_difference_s": -3.8757647402576367e-07,
+  "event_tolerance_s": 0.002,
+  "phase_results": {
+    "startup": {
+      "samples": 10433,
+      "maximum_absolute": {
+        "Q_mL_s": 5.380883285610594e-07,
+        "V_mL": 3.7428259247462847e-07,
+        "F_N": 1.5410895450429507e-05,
+        "command_steps_s": 0.0001712112605218863,
+        "x_m": 9.48490947241809e-11,
+        "v_m_s": 1.1071026979371512e-07,
+        "collected_mL": 3.7428258181648744e-07,
+        "phi_rad": 1.4774171774867284e-06,
+        "torque_Nm": 3.881947212569514e-07,
+        "omega_rad_s": 4.428410791745829e-05,
+        "tension_N": 6.824784718872934e-05,
+        "count_STEP": 1.1490724773466354e-05,
+        "acc_m_s2": 0.000165220339717026,
+        "signed_overlap_m": 7.705447727362341e-11,
+        "pressure_Pa": 0.0030752244347240776
+      },
+      "maximum_scaled_error": 0.05433419460872142,
+      "passed": true
+    },
+    "plateau": {
+      "samples": 26749,
+      "maximum_absolute": {
+        "Q_mL_s": 2.4226957382467162e-06,
+        "V_mL": 4.189379865238152e-07,
+        "F_N": 2.6697067127656737e-05,
+        "command_steps_s": 0.0002761184664450411,
+        "x_m": 1.6505963436330706e-10,
+        "v_m_s": 5.8965853854623523e-08,
+        "collected_mL": 4.1893797941838784e-07,
+        "phi_rad": 1.0225163826760308e-06,
+        "torque_Nm": 1.7570100671604472e-07,
+        "omega_rad_s": 2.3586341541870226e-05,
+        "tension_N": 2.965384079800515e-05,
+        "count_STEP": 3.329897367621015e-05,
+        "acc_m_s2": 7.712663643278169e-05,
+        "signed_overlap_m": 1.3348533563217746e-10,
+        "pressure_Pa": 0.005505027085746406
+      },
+      "maximum_scaled_error": 0.028398111364561416,
+      "passed": true
+    },
+    "deceleration": {
+      "samples": 17353,
+      "maximum_absolute": {
+        "Q_mL_s": 1.8104289272180552e-06,
+        "V_mL": 1.2865653502558416e-06,
+        "F_N": 3.680429155927811e-05,
+        "command_steps_s": 0.0022568142903764965,
+        "x_m": 3.6224796079453725e-10,
+        "v_m_s": 8.225932465939258e-08,
+        "collected_mL": 1.2865653502558416e-06,
+        "phi_rad": 1.0217391377409513e-06,
+        "torque_Nm": 3.027340989020938e-07,
+        "omega_rad_s": 3.290372986375356e-05,
+        "tension_N": 6.76592673505283e-05,
+        "count_STEP": 6.588774522242602e-05,
+        "acc_m_s2": 0.0001174221663317529,
+        "signed_overlap_m": 1.8402145779417012e-10,
+        "pressure_Pa": 0.009991525270379498
+      },
+      "maximum_scaled_error": 0.040828397299900905,
+      "passed": true
+    },
+    "postclose": {
+      "samples": 658,
+      "maximum_absolute": {
+        "Q_mL_s": 3.433648583385392e-13,
+        "V_mL": 3.956301952712238e-11,
+        "F_N": 3.705996065583861e-05,
+        "command_steps_s": 0.0008321174529317688,
+        "x_m": 1.8531052387027458e-10,
+        "v_m_s": 8.7286072787137e-08,
+        "collected_mL": 1.2233963957442029e-06,
+        "phi_rad": 1.2677208616196367e-06,
+        "torque_Nm": 3.756183609825853e-07,
+        "omega_rad_s": 3.491442911486564e-05,
+        "tension_N": 8.231633558164475e-05,
+        "count_STEP": 2.934243093477562e-05,
+        "acc_m_s2": 0.0001680089832899953,
+        "signed_overlap_m": 1.8529980327919304e-10,
+        "pressure_Pa": 0.010061466990009649
+      },
+      "maximum_scaled_error": 0.04354324714223631,
+      "passed": true
+    }
+  },
+  "absolute_tolerances": {
+    "Q_mL_s": 0.002,
+    "V_mL": 0.002,
+    "F_N": 0.03,
+    "command_steps_s": 0.1,
+    "x_m": 2e-07,
+    "v_m_s": 2e-06,
+    "collected_mL": 0.002,
+    "phi_rad": 0.0002,
+    "torque_Nm": 2e-05,
+    "omega_rad_s": 0.0008,
+    "tension_N": 0.03,
+    "count_STEP": 0.03,
+    "acc_m_s2": 0.01,
+    "signed_overlap_m": 2e-07,
+    "pressure_Pa": 10.0
+  },
+  "relative_tolerance": 2e-05,
+  "different_branch_samples": 1,
+  "no_interpolation_across_Q_reset": true,
+  "passed": true,
+  "event_comparison": [
+    {
+      "event": "t_close",
+      "python_s": 17.203629790448083,
+      "simulink_s": 17.203630178024557,
+      "difference_s": -3.8757647402576367e-07,
+      "tolerance_s": 0.002,
+      "both_absent": false,
+      "passed": true
+    },
+    {
+      "event": "t_command_stop",
+      "python_s": 17.277390938576897,
+      "simulink_s": 17.277478177278937,
+      "difference_s": -8.723870204008222e-05,
+      "tolerance_s": 0.002,
+      "both_absent": false,
+      "passed": true
+    },
+    {
+      "event": "t_mechanical_stop",
+      "python_s": 17.2498609405526,
+      "simulink_s": 17.250756791464784,
+      "difference_s": -0.0008958509121832492,
+      "tolerance_s": 0.003013981855471968,
+      "both_absent": false,
+      "passed": true
+    },
+    {
+      "event": "t_tail_end",
+      "python_s": 18.549829286131548,
+      "simulink_s": 18.54982978901185,
+      "difference_s": -5.028803009565763e-07,
+      "tolerance_s": 0.002,
+      "both_absent": false,
+      "passed": true
+    },
+    {
+      "event": "t_done",
+      "python_s": 18.549829286131548,
+      "simulink_s": 18.549829789011852,
+      "difference_s": -5.0288030450929e-07,
+      "tolerance_s": 0.002,
+      "both_absent": false,
+      "passed": true
+    }
+  ],
+  "simulink_status": "normal_completion",
+  "same_status": true
+}

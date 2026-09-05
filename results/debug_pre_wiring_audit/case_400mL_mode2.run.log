@@ -1,0 +1,2 @@
+SIMULINK RUN FINAL_verified case_400mL_mode2 | 20260902T200950
+normal_completion | torque 0.280775852 Nm (94.670%), Q RMSE 0.061864, close 30.469430, actual stop 30.586690, volume 400.00001447

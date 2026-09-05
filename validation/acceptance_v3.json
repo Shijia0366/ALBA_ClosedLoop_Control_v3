@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "scope": "Final conditional full-model numerical validation, NOT hardware validation",
+  "trajectory_checks": [
+    {
+      "case": "D_diagnostic_baseline/300/mode1",
+      "passed": true,
+      "worst_scaled_error": 0.0548477330781252,
+      "max_event_error_s": 0.0010951874316198484
+    },
+    {
+      "case": "D_diagnostic_baseline/300/mode2",
+      "passed": true,
+      "worst_scaled_error": 0.051162804622342115,
+      "max_event_error_s": 0.0016668076688368672
+    },
+    {
+      "case": "D_diagnostic_baseline/300/mode3",
+      "passed": true,
+      "worst_scaled_error": 0.06815135805071627,
+      "max_event_error_s": 0.0005320652687466065
+    },
+    {
+      "case": "FINAL_verified/200/mode2",
+      "passed": true,
+      "worst_scaled_error": 0.05433419460872142,
+      "max_event_error_s": 0.0008958509121832492
+    },
+    {
+      "case": "FINAL_verified/300/mode2",
+      "passed": true,
+      "worst_scaled_error": 0.05433419460872142,
+      "max_event_error_s": 0.0005410908220540023
+    },
+    {
+      "case": "FINAL_verified/400/mode2",
+      "passed": true,
+      "worst_scaled_error": 0.05433419460872142,
+      "max_event_error_s": 0.0006051784651504022
+    },
+    {
+      "case": "B_guard_localised/300/mode2",
+      "passed": true,
+      "worst_scaled_error": 0.051162804622342115,
+      "max_event_error_s": 8.038900070062027e-07
+    },
+    {
+      "case": "B_guard_localised/300/mode3",
+      "passed": true,
+      "worst_scaled_error": 0.05311829998939115,
+      "max_event_error_s": 9.992269056624536e-08
+    }
+  ],
+  "convergence_checks": [
+    {
+      "case": "convergence_300_mode1",
+      "passed": true,
+      "worst_scaled_error": 0.31882186822076164
+    },
+    {
+      "case": "convergence_300_mode2",
+      "passed": true,
+      "worst_scaled_error": 0.2401496178756746
+    },
+    {
+      "case": "convergence_300_mode3",
+      "passed": true,
+      "worst_scaled_error": 0.2155157864070374
+    },
+    {
+      "case": "final_verified_convergence_300",
+      "passed": true,
+      "worst_scaled_error": 0.2375599009204236
+    }
+  ],
+  "balance_checks": [
+    {
+      "target_mL": 200,
+      "absolute_tolerance_mL": 0.002,
+      "maximum_error_mL": 0.0001340715664699399,
+      "passed": true
+    },
+    {
+      "target_mL": 300,
+      "absolute_tolerance_mL": 0.002,
+      "maximum_error_mL": 0.00013702995199005308,
+      "passed": true
+    },
+    {
+      "target_mL": 400,
+      "absolute_tolerance_mL": 0.002,
+      "maximum_error_mL": 0.00014549065212565715,
+      "passed": true
+    }
+  ],
+  "known_failed_design": "0.25 mL early stop with PI/FF+PI",
+  "step10_started": false
+}

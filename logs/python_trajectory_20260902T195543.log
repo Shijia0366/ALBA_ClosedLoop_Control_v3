@@ -1,0 +1,11 @@
+Python 3.13.11 | packaged by Anaconda, Inc. | (main, Dec 10 2025, 21:21:58) [MSC v.1929 64 bit (AMD64)] NumPy 2.5.2 SciPy 1.18.1
+PYTHON case_300mL_mode2.mat {'status': 'normal_completion', 't_threshold': np.float64(23.848012433107563), 't_close': np.float64(23.848017433107565), 't_tail_end': np.float64(25.19799407271666), 't_command_stop': 23.944201686861, 't_mechanical_stop': 23.916656834804805, 't_done': np.float64(25.19799407271666)} wall 24.87309718132019
+TRAJECTORY PASS True [('startup', 0.05433419460872142), ('plateau', 0.029381687205375928), ('deceleration', 0.040415271671998904), ('postclose', 0.05644754146440433)]
+PYTHON case_200mL_mode2.mat {'status': 'normal_completion', 't_threshold': np.float64(17.203624790553203), 't_close': np.float64(17.203629790553205), 't_tail_end': np.float64(18.549829306161445), 't_command_stop': 17.277395632873592, 't_mechanical_stop': 17.249860950363548, 't_done': np.float64(18.549829306161445)} wall 31.400274515151978
+TRAJECTORY PASS False [('startup', 0.05433419460872142), ('plateau', 0.026661506331688577), ('deceleration', 0.044283917327504835), ('postclose', 0.04425778068862291)]
+PYTHON case_400mL_mode2.mat {'status': 'normal_completion', 't_threshold': np.float64(30.469424836115376), 't_close': np.float64(30.469429836115378), 't_tail_end': np.float64(31.827316162701802), 't_command_stop': 30.61411613540739, 't_mechanical_stop': 30.586634914862152, 't_done': np.float64(31.827316162701802)} wall 34.930909872055054
+TRAJECTORY PASS True [('startup', 0.05433419460872142), ('plateau', 0.030901128118062993), ('deceleration', 0.03444127957460034), ('postclose', 0.05851910184205556)]
+PYTHON case_300mL_mode2.mat {'status': 'boundary_triggered', 't_close': nan, 't_done': np.float64(23.345092092108086)} wall 35.82052302360535
+TRAJECTORY PASS True [('startup', 0.051162804622342115), ('plateau', 0.029488989530581364), ('deceleration', 0.03452882102537626)]
+PYTHON case_300mL_mode3.mat {'status': 'boundary_triggered', 't_close': nan, 't_done': np.float64(23.43675765358792)} wall 41.551007986068726
+TRAJECTORY PASS True [('startup', 0.05311829998939115), ('plateau', 0.028100388837637505), ('deceleration', 0.033480678822925845)]

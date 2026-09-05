@@ -1,0 +1,33 @@
+{
+  "selection_basis": "300 mL only, before held-out 200/400 mL",
+  "reason": "Pure PI 3 s had lowest startup torque among plateau-passing screened controllers; 0.05 mL early stop reduced post-close compression. 0.25 mL PI variants failed cable-tension boundary.",
+  "scenario_300": {
+    "target_mL": 300,
+    "tail_comp_mL": 2,
+    "tail_vol_mL": 2,
+    "q_plateau": 15,
+    "q_close": 3,
+    "rise_s": 3,
+    "R0_mL": 28.5,
+    "r_hold_mL": 1.5,
+    "Kp": 50,
+    "Ki": 600,
+    "Kaw": 10,
+    "n_max": 3000,
+    "a_max": 6000,
+    "a_brake": 2000,
+    "tau_slew": 0.005,
+    "mode": 2,
+    "n_fixed": 606.94,
+    "latch_gain": 100000,
+    "tau_q0": 0.001,
+    "terminal_manager": 1,
+    "stop_remaining_mL": 0.05,
+    "stop_n_steps_s": 0.001,
+    "stop_omega_rad_s": 0.001,
+    "stop_acc_m_s2": 0.001,
+    "stop_dwell_s": 0.1
+  },
+  "gains_retuned": false,
+  "physical_parameters_changed": false
+}

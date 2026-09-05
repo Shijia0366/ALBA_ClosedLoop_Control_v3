@@ -1,0 +1,45 @@
+{
+  "kind": "rom",
+  "a": "C:\\Users\\86155\\Documents\\毕设\\ALBA_Step9_ClosedLoop\\v2_original\\ALBA_Step9_ClosedLoop_v2\\results\\A_program_fixes\\case_300mL_mode3_geometric_ff_pi.mat",
+  "b": "C:\\Users\\86155\\Documents\\毕设\\ALBA_Step9_ClosedLoop\\ALBA_Step9_ClosedLoop_v3\\results\\D_diagnostic_baseline\\case_300mL_mode3.mat",
+  "closure_time_difference_s": -1.1992004331773387e-06,
+  "phases": {
+    "startup": {
+      "maximum_absolute": {
+        "Q_mL_s": 2.202392676250041,
+        "V_mL": 0.29715255929494333,
+        "F_N": 20.013451621699204,
+        "command_STEP_s": 221.83868935784074
+      }
+    },
+    "plateau": {
+      "maximum_absolute": {
+        "Q_mL_s": 0.033940286576884304,
+        "V_mL": 0.005486743680251038,
+        "F_N": 0.31462668495628066,
+        "command_STEP_s": 2.444442967551822
+      }
+    },
+    "deceleration": {
+      "maximum_absolute": {
+        "Q_mL_s": 0.0004864730410254481,
+        "V_mL": 0.0004746488375246827,
+        "F_N": 0.0024043490442409166,
+        "command_STEP_s": 0.024123422687523544
+      }
+    },
+    "postclose": {
+      "maximum_absolute": {
+        "Q_mL_s": 1.22503731338436e-18,
+        "V_mL": 2.1032064978498966e-11,
+        "F_N": 0.023175855201529316,
+        "command_STEP_s": 0.007880443244503876
+      }
+    }
+  },
+  "excluded_different_mode_window_s": [
+    23.46197934579651,
+    23.461980544996944
+  ],
+  "interpolation": "linear within each mode only; no Q reset crossing"
+}

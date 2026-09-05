@@ -1,0 +1,145 @@
+{
+  "events": {
+    "status": "boundary_triggered",
+    "t_close": NaN,
+    "t_done": 23.43675765358792
+  },
+  "simulink_close_s": NaN,
+  "closure_time_difference_s": NaN,
+  "event_tolerance_s": 0.002,
+  "phase_results": {
+    "startup": {
+      "samples": 7856,
+      "maximum_absolute": {
+        "Q_mL_s": 1.9568198803554537e-06,
+        "V_mL": 2.2069900751375826e-07,
+        "F_N": 2.2748199081989995e-05,
+        "command_steps_s": 0.00024712678964777454,
+        "x_m": 1.348124537350892e-10,
+        "v_m_s": 1.0873097932911566e-07,
+        "collected_mL": 2.2069898752974382e-07,
+        "phi_rad": 1.4685338001196868e-06,
+        "torque_Nm": 3.868725208244772e-07,
+        "omega_rad_s": 4.3492391731625446e-05,
+        "tension_N": 6.903485310516544e-05,
+        "count_STEP": 2.1047297735776738e-05,
+        "acc_m_s2": 0.00016326986295822285,
+        "signed_overlap_m": 1.2953227883751375e-10,
+        "pressure_Pa": 0.004527456480445835
+      },
+      "maximum_scaled_error": 0.05311829998939115,
+      "passed": true
+    },
+    "plateau": {
+      "samples": 49267,
+      "maximum_absolute": {
+        "Q_mL_s": 1.5983776364691948e-06,
+        "V_mL": 2.688135509743006e-07,
+        "F_N": 1.9626683780415988e-05,
+        "command_steps_s": 0.0001666701442673002,
+        "x_m": 9.202912477218606e-11,
+        "v_m_s": 5.858138444302108e-08,
+        "collected_mL": 2.6881355807972795e-07,
+        "phi_rad": 9.268338763135375e-07,
+        "torque_Nm": 1.8796427794787185e-07,
+        "omega_rad_s": 2.3432553777125165e-05,
+        "tension_N": 3.240437850138278e-05,
+        "count_STEP": 1.4861556792311603e-05,
+        "acc_m_s2": 8.121731546451675e-05,
+        "signed_overlap_m": 9.813341892567218e-11,
+        "pressure_Pa": 0.004040364332468016
+      },
+      "maximum_scaled_error": 0.028100388837637505,
+      "passed": true
+    },
+    "deceleration": {
+      "samples": 18376,
+      "maximum_absolute": {
+        "Q_mL_s": 1.3577252356622438e-05,
+        "V_mL": 1.7551052735598205e-06,
+        "F_N": 8.256401395900781e-05,
+        "command_steps_s": 0.0033063443541543336,
+        "x_m": 6.097404942062568e-10,
+        "v_m_s": 6.797993831156486e-08,
+        "collected_mL": 1.755105245138111e-06,
+        "phi_rad": 1.1857268944481802e-06,
+        "torque_Nm": 3.5163968515206784e-07,
+        "omega_rad_s": 2.7191975324636353e-05,
+        "tension_N": 0.00010362821030929226,
+        "count_STEP": 0.00011616905248956755,
+        "acc_m_s2": 0.00010742916615432015,
+        "signed_overlap_m": 4.1282006979503905e-10,
+        "pressure_Pa": 0.028494039833276474
+      },
+      "maximum_scaled_error": 0.033480678822925845,
+      "passed": true
+    }
+  },
+  "absolute_tolerances": {
+    "Q_mL_s": 0.002,
+    "V_mL": 0.002,
+    "F_N": 0.03,
+    "command_steps_s": 0.1,
+    "x_m": 2e-07,
+    "v_m_s": 2e-06,
+    "collected_mL": 0.002,
+    "phi_rad": 0.0002,
+    "torque_Nm": 2e-05,
+    "omega_rad_s": 0.0008,
+    "tension_N": 0.03,
+    "count_STEP": 0.03,
+    "acc_m_s2": 0.01,
+    "signed_overlap_m": 2e-07,
+    "pressure_Pa": 10.0
+  },
+  "relative_tolerance": 2e-05,
+  "different_branch_samples": 0,
+  "no_interpolation_across_Q_reset": true,
+  "passed": true,
+  "event_comparison": [
+    {
+      "event": "t_close",
+      "python_s": NaN,
+      "simulink_s": NaN,
+      "difference_s": NaN,
+      "tolerance_s": 0.002,
+      "both_absent": true,
+      "passed": true
+    },
+    {
+      "event": "t_done",
+      "python_s": 23.43675765358792,
+      "simulink_s": 23.436757753510612,
+      "difference_s": -9.992269056624536e-08,
+      "tolerance_s": 0.002,
+      "both_absent": false,
+      "passed": true
+    }
+  ],
+  "simulink_status": "boundary_triggered",
+  "same_status": true,
+  "python_boundary": {
+    "guard_indices": [
+      6
+    ],
+    "Q_actual_mL_s": 2.1025279339203915,
+    "guard_margins": [
+      1.5707660001633794,
+      0.08213374512797984,
+      0.00016570382896509533,
+      0.07603571962061483,
+      6.283049703875668,
+      -5.29641688986433e-14,
+      2.1025280339203912e-06
+    ],
+    "guard_units": [
+      "rad",
+      "m",
+      "m^3",
+      "m",
+      "rad/s",
+      "N",
+      "m^3/s"
+    ]
+  }
+}

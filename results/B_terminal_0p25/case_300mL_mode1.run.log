@@ -1,0 +1,2 @@
+SIMULINK RUN B_terminal_0p25 case_300mL_mode1 | 20260902T193720
+normal_completion | torque 0.276357499 Nm (93.180%), Q RMSE 3.455508, close 29.993357, actual stop 29.882800, volume 300.00000819

@@ -1,0 +1,86 @@
+{
+  "kind": "tight",
+  "a": "C:\\Users\\86155\\Documents\\毕设\\ALBA_Step9_ClosedLoop\\ALBA_Step9_ClosedLoop_v3\\results\\D_diagnostic_baseline\\case_300mL_mode2.mat",
+  "b": "C:\\Users\\86155\\Documents\\毕设\\ALBA_Step9_ClosedLoop\\ALBA_Step9_ClosedLoop_v3\\results\\D_convergence_tight\\case_300mL_mode2.mat",
+  "closure_time_difference_s": 5.411074184280551e-07,
+  "phases": {
+    "startup": {
+      "maximum_absolute": {
+        "Q_mL_s": 0.00029782308676740143,
+        "V_mL": 5.189833984786674e-06,
+        "F_N": 9.21264933033683e-05,
+        "command_STEP_s": 0.004190383182564705,
+        "x_m": 4.6435103044596346e-10,
+        "v_m_s": 4.929249763810199e-07,
+        "phi_rad": 1.0954961972814425e-05,
+        "torque_Nm": 3.247870630555122e-06,
+        "omega_rad_s": 0.00019716999055252593,
+        "acc_m_s2": 0.0013449506800110034,
+        "overlap_m": 1.0309157254634836e-09,
+        "pressure_Pa": 0.01833827831023882
+      },
+      "maximum_scaled_error": 0.2401496178756746,
+      "passed": true
+    },
+    "plateau": {
+      "maximum_absolute": {
+        "Q_mL_s": 1.592617197232471e-06,
+        "V_mL": 1.9715599819392082e-07,
+        "F_N": 1.7697248352988026e-05,
+        "command_STEP_s": 0.00017129994239439839,
+        "x_m": 8.889181491583686e-11,
+        "v_m_s": 6.140094800308193e-08,
+        "phi_rad": 9.328907824013299e-07,
+        "torque_Nm": 1.9839850889935562e-07,
+        "omega_rad_s": 2.456037920106624e-05,
+        "acc_m_s2": 8.574623187770667e-05,
+        "overlap_m": 8.848624177132391e-11,
+        "pressure_Pa": 0.0036202066075929906
+      },
+      "maximum_scaled_error": 0.029387135244154122,
+      "passed": true
+    },
+    "deceleration": {
+      "maximum_absolute": {
+        "Q_mL_s": 1.5260121966065299e-06,
+        "V_mL": 2.080065968357303e-06,
+        "F_N": 1.5079893444180925e-05,
+        "command_STEP_s": 7.789006656366837e-05,
+        "x_m": 6.946498098958642e-10,
+        "v_m_s": 6.972737618500188e-08,
+        "phi_rad": 9.258624441843555e-07,
+        "torque_Nm": 2.719126680067463e-07,
+        "omega_rad_s": 2.7890950474063203e-05,
+        "acc_m_s2": 0.0001095601609020615,
+        "overlap_m": 7.539946718739844e-11,
+        "pressure_Pa": 0.005000724579076632
+      },
+      "maximum_scaled_error": 0.03429523284128288,
+      "passed": true
+    },
+    "postclose": {
+      "maximum_absolute": {
+        "Q_mL_s": 1.2506657118397494e-18,
+        "V_mL": 2.8421709430404007e-13,
+        "F_N": 0.00017722111392792783,
+        "command_STEP_s": 0.001722906375716704,
+        "x_m": 8.861056471909379e-10,
+        "v_m_s": 3.798997292359975e-07,
+        "phi_rad": 5.959595772715709e-06,
+        "torque_Nm": 1.7643527794597436e-06,
+        "omega_rad_s": 0.0001519598916944198,
+        "acc_m_s2": 0.000852557153992281,
+        "overlap_m": 8.861055696433775e-10,
+        "pressure_Pa": 0.06114943145121288
+      },
+      "maximum_scaled_error": 0.18824395623091003,
+      "passed": true
+    }
+  },
+  "excluded_different_mode_window_s": [
+    23.37043301404264,
+    23.370433555150058
+  ],
+  "interpolation": "linear within each mode only; no Q reset crossing",
+  "passed": true
+}

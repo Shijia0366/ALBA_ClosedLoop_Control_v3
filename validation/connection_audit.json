@@ -1,0 +1,9 @@
+{
+  "compile_update_passed": true,
+  "feedback": "Q_actual mL/s, V_est=500-integral(Q_actual) mL",
+  "controller_output": "STEP/s",
+  "plant_states": "SI x,v,V,Q and integrated STEP position; Q reset once via v2 latch",
+  "reference_and_valve_use_independent_flow_integral": true,
+  "ROM_extra_actuator": false,
+  "limits_unchanged": true
+}

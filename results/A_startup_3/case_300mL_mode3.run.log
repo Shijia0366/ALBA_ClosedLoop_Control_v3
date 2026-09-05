@@ -1,0 +1,2 @@
+SIMULINK RUN A_startup_3 case_300mL_mode3 | 20260902T193554
+normal_completion | torque 0.282828863 Nm (95.362%), Q RMSE 0.015552, close 23.940445, actual stop 24.060139, volume 300.00001484

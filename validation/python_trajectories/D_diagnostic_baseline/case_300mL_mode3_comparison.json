@@ -1,0 +1,167 @@
+{
+  "events": {
+    "status": "normal_completion",
+    "t_threshold": 23.461975017525805,
+    "t_close": 23.461980017525807,
+    "t_tail_end": 24.795515260914318,
+    "t_command_stop": 23.60849090019565,
+    "t_mechanical_stop": 23.58099157578393,
+    "t_done": 24.795515260914318
+  },
+  "simulink_close_s": 23.461980544996944,
+  "closure_time_difference_s": -5.274711369906981e-07,
+  "event_tolerance_s": 0.002,
+  "phase_results": {
+    "startup": {
+      "samples": 7856,
+      "maximum_absolute": {
+        "Q_mL_s": 1.9568198803554537e-06,
+        "V_mL": 2.2069900751375826e-07,
+        "F_N": 2.2748199081989995e-05,
+        "command_steps_s": 0.00024712678964777454,
+        "x_m": 1.348124537350892e-10,
+        "v_m_s": 1.0873097932911566e-07,
+        "collected_mL": 2.2069898752974382e-07,
+        "phi_rad": 1.4685338001196868e-06,
+        "torque_Nm": 3.868725208244772e-07,
+        "omega_rad_s": 4.3492391731625446e-05,
+        "tension_N": 6.903485310516544e-05,
+        "count_STEP": 2.1047297735776738e-05,
+        "acc_m_s2": 0.00016326986295822285,
+        "signed_overlap_m": 1.2953227883751375e-10,
+        "pressure_Pa": 0.004527456480445835
+      },
+      "maximum_scaled_error": 0.05311829998939115,
+      "passed": true
+    },
+    "plateau": {
+      "samples": 49267,
+      "maximum_absolute": {
+        "Q_mL_s": 1.5983776364691948e-06,
+        "V_mL": 2.688135509743006e-07,
+        "F_N": 1.9626683780415988e-05,
+        "command_steps_s": 0.0001666701442673002,
+        "x_m": 9.202912477218606e-11,
+        "v_m_s": 5.858138444302108e-08,
+        "collected_mL": 2.6881355807972795e-07,
+        "phi_rad": 9.268338763135375e-07,
+        "torque_Nm": 1.8796427794787185e-07,
+        "omega_rad_s": 2.3432553777125165e-05,
+        "tension_N": 3.240437850138278e-05,
+        "count_STEP": 1.4861556792311603e-05,
+        "acc_m_s2": 8.121731546451675e-05,
+        "signed_overlap_m": 9.813341892567218e-11,
+        "pressure_Pa": 0.004040364332468016
+      },
+      "maximum_scaled_error": 0.028100388837637505,
+      "passed": true
+    },
+    "deceleration": {
+      "samples": 18106,
+      "maximum_absolute": {
+        "Q_mL_s": 1.2220803604634511e-06,
+        "V_mL": 1.7551052735598205e-06,
+        "F_N": 1.4247825134816594e-05,
+        "command_steps_s": 6.839045261131105e-05,
+        "x_m": 6.097404942062568e-10,
+        "v_m_s": 6.797993831156486e-08,
+        "collected_mL": 1.755105245138111e-06,
+        "phi_rad": 9.022562252880562e-07,
+        "torque_Nm": 2.631386299481453e-07,
+        "omega_rad_s": 2.7191975324636353e-05,
+        "tension_N": 4.866699086569781e-05,
+        "count_STEP": 0.00011616905248956755,
+        "acc_m_s2": 0.00010742916615432015,
+        "signed_overlap_m": 7.123912570961011e-11,
+        "pressure_Pa": 0.0046930392181820935
+      },
+      "maximum_scaled_error": 0.033480678822925845,
+      "passed": true
+    },
+    "postclose": {
+      "samples": 1344,
+      "maximum_absolute": {
+        "Q_mL_s": 1.22503731338436e-18,
+        "V_mL": 1.7053025658242404e-12,
+        "F_N": 0.00011680087452781152,
+        "command_steps_s": 0.0013696465019847892,
+        "x_m": 5.840038036497575e-10,
+        "v_m_s": 1.3759498181315551e-07,
+        "collected_mL": 1.5915040876279818e-06,
+        "phi_rad": 2.4846691815127997e-06,
+        "torque_Nm": 7.356439061904918e-07,
+        "omega_rad_s": 5.503799272527088e-05,
+        "tension_N": 0.0001854625509523089,
+        "count_STEP": 0.00011127065954497084,
+        "acc_m_s2": 0.00020653958669038242,
+        "signed_overlap_m": 5.840043726390576e-10,
+        "pressure_Pa": 0.04030167125074513
+      },
+      "maximum_scaled_error": 0.06815135805071627,
+      "passed": true
+    }
+  },
+  "absolute_tolerances": {
+    "Q_mL_s": 0.002,
+    "V_mL": 0.002,
+    "F_N": 0.03,
+    "command_steps_s": 0.1,
+    "x_m": 2e-07,
+    "v_m_s": 2e-06,
+    "collected_mL": 0.002,
+    "phi_rad": 0.0002,
+    "torque_Nm": 2e-05,
+    "omega_rad_s": 0.0008,
+    "tension_N": 0.03,
+    "count_STEP": 0.03,
+    "acc_m_s2": 0.01,
+    "signed_overlap_m": 2e-07,
+    "pressure_Pa": 10.0
+  },
+  "relative_tolerance": 2e-05,
+  "different_branch_samples": 1,
+  "no_interpolation_across_Q_reset": true,
+  "passed": true,
+  "event_comparison": [
+    {
+      "event": "t_close",
+      "python_s": 23.461980017525807,
+      "simulink_s": 23.461980544996944,
+      "difference_s": -5.274711369906981e-07,
+      "tolerance_s": 0.002,
+      "passed": true
+    },
+    {
+      "event": "t_command_stop",
+      "python_s": 23.60849090019565,
+      "simulink_s": 23.608443535174988,
+      "difference_s": 4.736502066293724e-05,
+      "tolerance_s": 0.002,
+      "passed": true
+    },
+    {
+      "event": "t_mechanical_stop",
+      "python_s": 23.58099157578393,
+      "simulink_s": 23.581523641052677,
+      "difference_s": -0.0005320652687466065,
+      "tolerance_s": 0.002957520016392266,
+      "passed": true
+    },
+    {
+      "event": "t_tail_end",
+      "python_s": 24.795515260914318,
+      "simulink_s": 24.795515777586246,
+      "difference_s": -5.166719283522525e-07,
+      "tolerance_s": 0.002,
+      "passed": true
+    },
+    {
+      "event": "t_done",
+      "python_s": 24.795515260914318,
+      "simulink_s": 24.79582585241065,
+      "difference_s": -0.000310591496333501,
+      "tolerance_s": 0.002,
+      "passed": true
+    }
+  ]
+}

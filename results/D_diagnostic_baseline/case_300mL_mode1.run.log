@@ -1,0 +1,2 @@
+SIMULINK RUN D_diagnostic_baseline case_300mL_mode1 | 20260902T191953
+normal_completion | torque 0.285756787 Nm (96.349%), Q RMSE 3.455501, close 25.644283, actual stop 25.988723, volume 300.00004311

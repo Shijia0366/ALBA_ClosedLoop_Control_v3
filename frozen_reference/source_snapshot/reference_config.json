@@ -1,0 +1,20 @@
+{
+  "version": "0.1-conditional-reference",
+  "hydraulic_inertia_scale": 1.0,
+  "nonlinear_pipe": true,
+  "pipe_absolute_roughness_m": 0.0,
+  "Re_laminar": 2000.0,
+  "Re_turbulent": 4000.0,
+  "additional_component_K_Pa_s2_m6": 0.0,
+  "additional_component_K_authorized": false,
+  "material_relaxation_enabled": false,
+  "valve_scope": "fully open; stop at a closing command, do not invent closure transients",
+  "fluid_scope": "primed, bubble-free, rigid constant-bore tubing; forward liquid flow only",
+  "inertia_source": "rho * sum(L_i/A_i), known straight tubes only; excludes unknown component inertance",
+  "roughness_source": "smooth-pipe assumption, not a measured roughness",
+  "transition_source": "engineering 2000/4000 thresholds with cubic smooth blending, not measured transition",
+  "component_loss_source": "Rh_loaded minus calculated laminar straight-tube resistance; lumped residual, not an identified valve curve",
+  "additional_component_K_source": "not identified; disabled, zero does not prove no local nonlinear loss",
+  "material_relaxation_source": "not identified; no invented Ecoflex relaxation constants",
+  "experimental_hardware_validation": false
+}

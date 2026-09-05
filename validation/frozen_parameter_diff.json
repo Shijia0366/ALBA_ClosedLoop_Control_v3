@@ -1,0 +1,511 @@
+{
+  "all_unchanged": true,
+  "rows": [
+    {
+      "group": "plant_parameters",
+      "name": "V0",
+      "unchanged": true,
+      "new": 0.0005,
+      "old": 0.0005
+    },
+    {
+      "group": "plant_parameters",
+      "name": "Dref_outer",
+      "unchanged": true,
+      "new": 0.07,
+      "old": 0.07
+    },
+    {
+      "group": "plant_parameters",
+      "name": "Dref_inner",
+      "unchanged": true,
+      "new": 0.066,
+      "old": 0.066
+    },
+    {
+      "group": "plant_parameters",
+      "name": "Dmin",
+      "unchanged": true,
+      "new": 0.05,
+      "old": 0.05
+    },
+    {
+      "group": "plant_parameters",
+      "name": "cable_gap",
+      "unchanged": true,
+      "new": 0.003,
+      "old": 0.003
+    },
+    {
+      "group": "plant_parameters",
+      "name": "material_confirmed_by_user",
+      "unchanged": true,
+      "new": 1,
+      "old": 1
+    },
+    {
+      "group": "plant_parameters",
+      "name": "stress100",
+      "unchanged": true,
+      "new": 55158.058345344,
+      "old": 55158.058345344
+    },
+    {
+      "group": "plant_parameters",
+      "name": "rho",
+      "unchanged": true,
+      "new": 1000.0,
+      "old": 1000.0
+    },
+    {
+      "group": "plant_parameters",
+      "name": "gravity",
+      "unchanged": true,
+      "new": 9.81,
+      "old": 9.81
+    },
+    {
+      "group": "plant_parameters",
+      "name": "water_viscosity",
+      "unchanged": true,
+      "new": 0.001,
+      "old": 0.001
+    },
+    {
+      "group": "plant_parameters",
+      "name": "pipe_diameter",
+      "unchanged": true,
+      "new": 0.004,
+      "old": 0.004
+    },
+    {
+      "group": "plant_parameters",
+      "name": "pipe_segments",
+      "unchanged": true,
+      "new": [
+        0.03,
+        0.03,
+        0.3
+      ],
+      "old": [
+        0.03,
+        0.03,
+        0.3
+      ]
+    },
+    {
+      "group": "plant_parameters",
+      "name": "head",
+      "unchanged": true,
+      "new": 0.1,
+      "old": 0.1
+    },
+    {
+      "group": "plant_parameters",
+      "name": "shaft_diameter",
+      "unchanged": true,
+      "new": 0.005,
+      "old": 0.005
+    },
+    {
+      "group": "plant_parameters",
+      "name": "effective_radius",
+      "unchanged": true,
+      "new": 0.0025,
+      "old": 0.0025
+    },
+    {
+      "group": "plant_parameters",
+      "name": "mass_equivalent",
+      "unchanged": true,
+      "new": 0.5,
+      "old": 0.5
+    },
+    {
+      "group": "plant_parameters",
+      "name": "damping",
+      "unchanged": true,
+      "new": 20.0,
+      "old": 20.0
+    },
+    {
+      "group": "plant_parameters",
+      "name": "friction",
+      "unchanged": true,
+      "new": 0.1,
+      "old": 0.1
+    },
+    {
+      "group": "plant_parameters",
+      "name": "friction_velocity",
+      "unchanged": true,
+      "new": 1e-05,
+      "old": 1e-05
+    },
+    {
+      "group": "plant_parameters",
+      "name": "force_max",
+      "unchanged": true,
+      "new": 15.0,
+      "old": 15.0
+    },
+    {
+      "group": "plant_parameters",
+      "name": "contact_stiffness",
+      "unchanged": true,
+      "new": 200000.0,
+      "old": 200000.0
+    },
+    {
+      "group": "plant_parameters",
+      "name": "Rh",
+      "unchanged": true,
+      "new": 1644008304.5256217,
+      "old": 1644008304.5256217
+    },
+    {
+      "group": "plant_parameters",
+      "name": "force_ramp",
+      "unchanged": true,
+      "new": 1.0,
+      "old": 1.0
+    },
+    {
+      "group": "plant_parameters",
+      "name": "time_horizon",
+      "unchanged": true,
+      "new": 3600.0,
+      "old": 3600.0
+    },
+    {
+      "group": "plant_parameters",
+      "name": "rtol",
+      "unchanged": true,
+      "new": 2e-08,
+      "old": 2e-08
+    },
+    {
+      "group": "plant_parameters",
+      "name": "atol",
+      "unchanged": true,
+      "new": [
+        2e-11,
+        2e-10,
+        2e-13,
+        2e-13,
+        2e-11
+      ],
+      "old": [
+        2e-11,
+        2e-10,
+        2e-13,
+        2e-13,
+        2e-11
+      ]
+    },
+    {
+      "group": "plant_parameters",
+      "name": "max_step",
+      "unchanged": true,
+      "new": 5.0,
+      "old": 5.0
+    },
+    {
+      "group": "plant_parameters",
+      "name": "mu",
+      "unchanged": true,
+      "new": 31518.890483053714,
+      "old": 31518.890483053714
+    },
+    {
+      "group": "plant_parameters",
+      "name": "Vsilicone",
+      "unchanged": true,
+      "new": 2.906182644080801e-05,
+      "old": 2.906182644080801e-05
+    },
+    {
+      "group": "plant_parameters",
+      "name": "Vnatural",
+      "unchanged": true,
+      "new": 0.00015053255358940854,
+      "old": 0.00015053255358940854
+    },
+    {
+      "group": "plant_parameters",
+      "name": "D0",
+      "unchanged": true,
+      "new": 0.10034658601199008,
+      "old": 0.10034658601199008
+    },
+    {
+      "group": "plant_parameters",
+      "name": "L0",
+      "unchanged": true,
+      "new": 0.3340976533496231,
+      "old": 0.3340976533496231
+    },
+    {
+      "group": "plant_parameters",
+      "name": "xmax",
+      "unchanged": true,
+      "new": 0.15816846474859467,
+      "old": 0.15816846474859467
+    },
+    {
+      "group": "plant_parameters",
+      "name": "Vmin",
+      "unchanged": true,
+      "new": 3.638802050897935e-05,
+      "old": 3.638802050897935e-05
+    },
+    {
+      "group": "plant_parameters",
+      "name": "pipe_length",
+      "unchanged": true,
+      "new": 0.36,
+      "old": 0.36
+    },
+    {
+      "group": "plant_parameters",
+      "name": "pipe_area",
+      "unchanged": true,
+      "new": 1.2566370614359172e-05,
+      "old": 1.2566370614359172e-05
+    },
+    {
+      "group": "plant_parameters",
+      "name": "R_tube",
+      "unchanged": true,
+      "new": 57295779.5130823,
+      "old": 57295779.5130823
+    },
+    {
+      "group": "plant_parameters",
+      "name": "I_tube",
+      "unchanged": true,
+      "new": 28647889.756541163,
+      "old": 28647889.756541163
+    },
+    {
+      "group": "plant_parameters",
+      "name": "tube_volume",
+      "unchanged": true,
+      "new": 4.523893421169301e-06,
+      "old": 4.523893421169301e-06
+    },
+    {
+      "group": "plant_parameters",
+      "name": "cage_mass",
+      "unchanged": true,
+      "new": 0.27,
+      "old": 0.27
+    },
+    {
+      "group": "plant_parameters",
+      "name": "support_fraction",
+      "unchanged": true,
+      "new": 1.0,
+      "old": 1.0
+    },
+    {
+      "group": "plant_parameters",
+      "name": "gravity_height_slope",
+      "unchanged": true,
+      "new": 1.0,
+      "old": 1.0
+    },
+    {
+      "group": "plant_parameters",
+      "name": "water_column_primed_assumption",
+      "unchanged": true,
+      "new": 1,
+      "old": 1
+    },
+    {
+      "group": "plant_parameters",
+      "name": "quadratic_loss",
+      "unchanged": true,
+      "new": 0.0,
+      "old": 0.0
+    },
+    {
+      "group": "hydraulic_parameters",
+      "name": "hydraulic_inertia_scale",
+      "unchanged": true,
+      "new": 1.0,
+      "old": 1.0
+    },
+    {
+      "group": "hydraulic_parameters",
+      "name": "nonlinear_pipe",
+      "unchanged": true,
+      "new": 1,
+      "old": 1
+    },
+    {
+      "group": "hydraulic_parameters",
+      "name": "pipe_absolute_roughness_m",
+      "unchanged": true,
+      "new": 0.0,
+      "old": 0.0
+    },
+    {
+      "group": "hydraulic_parameters",
+      "name": "Re_laminar",
+      "unchanged": true,
+      "new": 2000.0,
+      "old": 2000.0
+    },
+    {
+      "group": "hydraulic_parameters",
+      "name": "Re_turbulent",
+      "unchanged": true,
+      "new": 4000.0,
+      "old": 4000.0
+    },
+    {
+      "group": "hydraulic_parameters",
+      "name": "additional_component_K_Pa_s2_m6",
+      "unchanged": true,
+      "new": 0.0,
+      "old": 0.0
+    },
+    {
+      "group": "hydraulic_parameters",
+      "name": "additional_component_K_authorized",
+      "unchanged": true,
+      "new": 0,
+      "old": 0
+    },
+    {
+      "group": "hydraulic_parameters",
+      "name": "material_relaxation_enabled",
+      "unchanged": true,
+      "new": 0,
+      "old": 0
+    },
+    {
+      "group": "hydraulic_parameters",
+      "name": "experimental_hardware_validation",
+      "unchanged": true,
+      "new": 0,
+      "old": 0
+    },
+    {
+      "group": "hydraulic_parameters",
+      "name": "pipe_area_m2",
+      "unchanged": true,
+      "new": 1.2566370614359172e-05,
+      "old": 1.2566370614359172e-05
+    },
+    {
+      "group": "hydraulic_parameters",
+      "name": "pipe_length_m",
+      "unchanged": true,
+      "new": 0.36,
+      "old": 0.36
+    },
+    {
+      "group": "hydraulic_parameters",
+      "name": "R_pipe_laminar_Pa_s_m3",
+      "unchanged": true,
+      "new": 57295779.5130823,
+      "old": 57295779.5130823
+    },
+    {
+      "group": "hydraulic_parameters",
+      "name": "R_residual_Pa_s_m3",
+      "unchanged": true,
+      "new": 1586712525.0125394,
+      "old": 1586712525.0125394
+    },
+    {
+      "group": "hydraulic_parameters",
+      "name": "Ih_Pa_s2_m3",
+      "unchanged": true,
+      "new": 28647889.756541163,
+      "old": 28647889.756541163
+    },
+    {
+      "group": "hydraulic_parameters",
+      "name": "linear_hydraulic_time_constant_s",
+      "unchanged": true,
+      "new": 0.01742563567208227,
+      "old": 0.01742563567208227
+    },
+    {
+      "group": "ROM",
+      "name": "stiffness_coefficients",
+      "unchanged": true,
+      "new": [
+        1.8439040008460696,
+        0.0,
+        0.0,
+        -0.2221257058259589,
+        0.24998011350468885,
+        -0.14324395812222043
+      ],
+      "old": [
+        1.8439040008460696,
+        0.0,
+        0.0,
+        -0.2221257058259589,
+        0.24998011350468885,
+        -0.14324395812222043
+      ]
+    },
+    {
+      "group": "ROM",
+      "name": "stiffness_powers",
+      "unchanged": true,
+      "new": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "old": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ]
+    },
+    {
+      "group": "ROM",
+      "name": "motor_radius_m",
+      "unchanged": true,
+      "new": 0.0025,
+      "old": 0.0025
+    },
+    {
+      "group": "ROM",
+      "name": "steps_per_rev",
+      "unchanged": true,
+      "new": 3200,
+      "old": 3200
+    }
+  ],
+  "hashes": {
+    "alba9_const.m": {
+      "v2": "255684d19bb487d5942a2e6f8fd71da9a2d6c51557a7543d13553b74001f4485",
+      "v3": "255684d19bb487d5942a2e6f8fd71da9a2d6c51557a7543d13553b74001f4485",
+      "unchanged": true
+    },
+    "stage9b_port/alba9b_const.m": {
+      "v2": "addf696dd28c9397e8f22fda2cd7fd01ca2fbb8d7396a9f2d29db943a44e703f",
+      "v3": "addf696dd28c9397e8f22fda2cd7fd01ca2fbb8d7396a9f2d29db943a44e703f",
+      "unchanged": true
+    },
+    "ALBA_Stage8_Results.mat": {
+      "v2": "547170400466c726601d6b03f8b4970b239e920263faaa8f9a7f5c9e880c5b3f",
+      "v3": "547170400466c726601d6b03f8b4970b239e920263faaa8f9a7f5c9e880c5b3f",
+      "unchanged": true
+    }
+  }
+}
