@@ -1,4 +1,4 @@
-# ALBA Step 9 — Closed-Loop Control Simulation v3
+# ALBA Closed-Loop Control Simulation v3
 
 MATLAB/Simulink implementation and numerical validation of the closed-loop
 control study developed for the ALBA soft robotic bladder-assist system.
@@ -66,7 +66,7 @@ feedback; they do not constitute hardware closed-loop validation.
 ## Repository structure
 
 ```text
-ALBA_Step9_ClosedLoop_v3/
+ALBA_ClosedLoop_Control_v3/
 │
 ├── README.md
 ├── requirements-v3.txt
